@@ -1,0 +1,261 @@
+# C3P30.txt
+
+router
+
+# node  comment     yPos    xPos
+Dev1Pat1    NA        1       1
+Dev2Pat1    NA        2       1
+Dev3Pat1    NA        3       1
+Dev1Pat2    NA        4       1
+Dev2Pat2    NA        5       1
+Dev3Pat2    NA        6       1
+Dev1Pat3    NA        7       1
+Dev2Pat3    NA        8       1
+Dev3Pat3    NA        9       1
+Dev1Pat4    NA        10      1
+Dev2Pat4    NA        11      1
+Dev3Pat4    NA        12      1
+Dev1Pat5    NA        13      1
+Dev2Pat5    NA        14      1
+Dev3Pat5    NA        15      1
+Dev1Pat6    NA        16      1
+Dev2Pat6    NA        17      1
+Dev3Pat6    NA        18      1
+Dev1Pat7    NA        19      1
+Dev2Pat7    NA        20      1
+Dev3Pat7    NA        21      1
+Dev1Pat8    NA        22      1
+Dev2Pat8    NA        23      1
+Dev3Pat8    NA        24      1
+Dev1Pat9    NA        25      1
+Dev2Pat9    NA        26      1
+Dev3Pat9    NA        27      1
+Dev1Pat10   NA        28      1
+Dev2Pat10   NA        29      1
+Dev3Pat10   NA        30      1
+Dev1Pat11   NA        31      1
+Dev2Pat11   NA        32      1
+Dev3Pat11   NA        33      1
+Dev1Pat12   NA        34      1
+Dev2Pat12   NA        35      1
+Dev3Pat12   NA        36      1
+Dev1Pat13   NA        37      1
+Dev2Pat13   NA        38      1
+Dev3Pat13   NA        39      1
+Dev1Pat14   NA        40      1
+Dev2Pat14   NA        41      1
+Dev3Pat14   NA        42      1
+Dev1Pat15   NA        43      1
+Dev2Pat15   NA        44      1
+Dev3Pat15   NA        45      1
+Dev1Pat16   NA        46      1
+Dev2Pat16   NA        47      1
+Dev3Pat16   NA        48      1
+Dev1Pat17   NA        49      1
+Dev2Pat17   NA        50      1
+Dev3Pat17   NA        51      1
+Dev1Pat18   NA        52      1
+Dev2Pat18   NA        53      1
+Dev3Pat18   NA        54      1
+Dev1Pat19   NA        55      1
+Dev2Pat19   NA        56      1
+Dev3Pat19   NA        57      1
+Dev1Pat20   NA        58      1
+Dev2Pat20   NA        59      1
+Dev3Pat20   NA        60      1
+Dev1Pat21   NA        61      1
+Dev2Pat21   NA        62      1
+Dev3Pat21   NA        63      1
+Dev1Pat22   NA        64      1
+Dev2Pat22   NA        65      1
+Dev3Pat22   NA        66      1
+Dev1Pat23   NA        67      1
+Dev2Pat23   NA        68      1
+Dev3Pat23   NA        69      1
+Dev1Pat24   NA        70      1
+Dev2Pat24   NA        71      1
+Dev3Pat24   NA        72      1
+Dev1Pat25   NA        73      1
+Dev2Pat25   NA        74      1
+Dev3Pat25   NA        75      1
+Dev1Pat26   NA        76      1
+Dev2Pat26   NA        77      1
+Dev3Pat26   NA        78      1
+Dev1Pat27   NA        79      1
+Dev2Pat27   NA        80      1
+Dev3Pat27   NA        81      1
+Dev1Pat28   NA        82      1
+Dev2Pat28   NA        83      1
+Dev3Pat28   NA        84      1
+Dev1Pat29   NA        85      1
+Dev2Pat29   NA        86      1
+Dev3Pat29   NA        87      1
+Dev1Pat30   NA        88      1
+Dev2Pat30   NA        89      1
+Dev3Pat30   NA        90      1
+Pat1        NA        2       2
+Pat2        NA        4       2
+Pat3        NA        6       2
+Pat4        NA        8       2
+Pat5        NA        10      2
+Pat6        NA        12      2
+Pat7        NA        14      2
+Pat8        NA        16      2
+Pat9        NA        18      2
+Pat10       NA        20      2
+Pat11       NA        22      2
+Pat12       NA        24      2
+Pat13       NA        26      2
+Pat14       NA        28      2
+Pat15       NA        30      2
+Pat16       NA        32      2
+Pat17       NA        34      2
+Pat18       NA        36      2
+Pat19       NA        38      2
+Pat20       NA        40      2
+Pat21       NA        42      2
+Pat22       NA        44      2
+Pat23       NA        46      2
+Pat24       NA        48      2
+Pat25       NA        50      2
+Pat26       NA        52      2
+Pat27       NA        54      2
+Pat28       NA        56      2
+Pat29       NA        58      2
+Pat30       NA        60      2
+GatePat     NA        5       3
+GateDoc     NA        5       4
+Doc1        NA        4       5
+Doc2        NA        5       5
+Doc3        NA        6       5
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+Dev1Pat1        Pat1        10Mbps      1        10ms    20
+Dev2Pat1        Pat1        10Mbps      1        10ms    20
+Dev3Pat1        Pat1        10Mbps      1        10ms    20
+Dev1Pat2        Pat2        10Mbps      1        10ms    20
+Dev2Pat2        Pat2        10Mbps      1        10ms    20
+Dev3Pat2        Pat2        10Mbps      1        10ms    20
+Dev1Pat3        Pat3        10Mbps      1        10ms    20
+Dev2Pat3        Pat3        10Mbps      1        10ms    20
+Dev3Pat3        Pat3        10Mbps      1        10ms    20
+Dev1Pat4        Pat4        10Mbps      1        10ms    20
+Dev2Pat4        Pat4        10Mbps      1        10ms    20
+Dev3Pat4        Pat4        10Mbps      1        10ms    20
+Dev1Pat5        Pat5        10Mbps      1        10ms    20
+Dev2Pat5        Pat5        10Mbps      1        10ms    20
+Dev3Pat5        Pat5        10Mbps      1        10ms    20
+Dev1Pat6        Pat6        10Mbps      1        10ms    20
+Dev2Pat6        Pat6        10Mbps      1        10ms    20
+Dev3Pat6        Pat6        10Mbps      1        10ms    20
+Dev1Pat7        Pat7        10Mbps      1        10ms    20
+Dev2Pat7        Pat7        10Mbps      1        10ms    20
+Dev3Pat7        Pat7        10Mbps      1        10ms    20
+Dev1Pat8        Pat8        10Mbps      1        10ms    20
+Dev2Pat8        Pat8        10Mbps      1        10ms    20
+Dev3Pat8        Pat8        10Mbps      1        10ms    20
+Dev1Pat9        Pat9        10Mbps      1        10ms    20
+Dev2Pat9        Pat9        10Mbps      1        10ms    20
+Dev3Pat9        Pat9        10Mbps      1        10ms    20
+Dev1Pat10       Pat10       10Mbps      1        10ms    20
+Dev2Pat10       Pat10       10Mbps      1        10ms    20
+Dev3Pat10       Pat10       10Mbps      1        10ms    20
+Dev1Pat11       Pat11       10Mbps      1        10ms    20
+Dev2Pat11       Pat11       10Mbps      1        10ms    20
+Dev3Pat11       Pat11       10Mbps      1        10ms    20
+Dev1Pat12       Pat12       10Mbps      1        10ms    20
+Dev2Pat12       Pat12       10Mbps      1        10ms    20
+Dev3Pat12       Pat12       10Mbps      1        10ms    20
+Dev1Pat13       Pat13       10Mbps      1        10ms    20
+Dev2Pat13       Pat13       10Mbps      1        10ms    20
+Dev3Pat13       Pat13       10Mbps      1        10ms    20
+Dev1Pat14       Pat14       10Mbps      1        10ms    20
+Dev2Pat14       Pat14       10Mbps      1        10ms    20
+Dev3Pat14       Pat14       10Mbps      1        10ms    20
+Dev1Pat15       Pat15       10Mbps      1        10ms    20
+Dev2Pat15       Pat15       10Mbps      1        10ms    20
+Dev3Pat15       Pat15       10Mbps      1        10ms    20
+Dev1Pat16       Pat16       10Mbps      1        10ms    20
+Dev2Pat16       Pat16       10Mbps      1        10ms    20
+Dev3Pat16       Pat16       10Mbps      1        10ms    20
+Dev1Pat17       Pat17       10Mbps      1        10ms    20
+Dev2Pat17       Pat17       10Mbps      1        10ms    20
+Dev3Pat17       Pat17       10Mbps      1        10ms    20
+Dev1Pat18       Pat18       10Mbps      1        10ms    20
+Dev2Pat18       Pat18       10Mbps      1        10ms    20
+Dev3Pat18       Pat18       10Mbps      1        10ms    20
+Dev1Pat19       Pat19       10Mbps      1        10ms    20
+Dev2Pat19       Pat19       10Mbps      1        10ms    20
+Dev3Pat19       Pat19       10Mbps      1        10ms    20
+Dev1Pat20       Pat20       10Mbps      1        10ms    20
+Dev2Pat20       Pat20       10Mbps      1        10ms    20
+Dev3Pat20       Pat20       10Mbps      1        10ms    20
+Dev1Pat21       Pat21       10Mbps      1        10ms    20
+Dev2Pat21       Pat21       10Mbps      1        10ms    20
+Dev3Pat21       Pat21       10Mbps      1        10ms    20
+Dev1Pat22       Pat22       10Mbps      1        10ms    20
+Dev2Pat22       Pat22       10Mbps      1        10ms    20
+Dev3Pat22       Pat22       10Mbps      1        10ms    20
+Dev1Pat23       Pat23       10Mbps      1        10ms    20
+Dev2Pat23       Pat23       10Mbps      1        10ms    20
+Dev3Pat23       Pat23       10Mbps      1        10ms    20
+Dev1Pat24       Pat24       10Mbps      1        10ms    20
+Dev2Pat24       Pat24       10Mbps      1        10ms    20
+Dev3Pat24       Pat24       10Mbps      1        10ms    20
+Dev1Pat25       Pat25       10Mbps      1        10ms    20
+Dev2Pat25       Pat25       10Mbps      1        10ms    20
+Dev3Pat25       Pat25       10Mbps      1        10ms    20
+Dev1Pat26       Pat26       10Mbps      1        10ms    20
+Dev2Pat26       Pat26       10Mbps      1        10ms    20
+Dev3Pat26       Pat26       10Mbps      1        10ms    20
+Dev1Pat27       Pat27       10Mbps      1        10ms    20
+Dev2Pat27       Pat27       10Mbps      1        10ms    20
+Dev3Pat27       Pat27       10Mbps      1        10ms    20
+Dev1Pat28       Pat28       10Mbps      1        10ms    20
+Dev2Pat28       Pat28       10Mbps      1        10ms    20
+Dev3Pat28       Pat28       10Mbps      1        10ms    20
+Dev1Pat29       Pat29       10Mbps      1        10ms    20
+Dev2Pat29       Pat29       10Mbps      1        10ms    20
+Dev3Pat29       Pat29       10Mbps      1        10ms    20
+Dev1Pat30       Pat30       10Mbps      1        10ms    20
+Dev2Pat30       Pat30       10Mbps      1        10ms    20
+Dev3Pat30       Pat30       10Mbps      1        10ms    20
+Pat1            GatePat     10Mbps      1        10ms    20
+Pat2            GatePat     10Mbps      1        10ms    20
+Pat3            GatePat     10Mbps      1        10ms    20
+Pat4            GatePat     10Mbps      1        10ms    20
+Pat5            GatePat     10Mbps      1        10ms    20
+Pat6            GatePat     10Mbps      1        10ms    20
+Pat7            GatePat     10Mbps      1        10ms    20
+Pat8            GatePat     10Mbps      1        10ms    20
+Pat9            GatePat     10Mbps      1        10ms    20
+Pat10           GatePat     10Mbps      1        10ms    20
+Pat11           GatePat     10Mbps      1        10ms    20
+Pat12           GatePat     10Mbps      1        10ms    20
+Pat13           GatePat     10Mbps      1        10ms    20
+Pat14           GatePat     10Mbps      1        10ms    20
+Pat15           GatePat     10Mbps      1        10ms    20
+Pat16           GatePat     10Mbps      1        10ms    20
+Pat17           GatePat     10Mbps      1        10ms    20
+Pat18           GatePat     10Mbps      1        10ms    20
+Pat19           GatePat     10Mbps      1        10ms    20
+Pat20           GatePat     10Mbps      1        10ms    20
+Pat21           GatePat     10Mbps      1        10ms    20
+Pat22           GatePat     10Mbps      1        10ms    20
+Pat23           GatePat     10Mbps      1        10ms    20
+Pat24           GatePat     10Mbps      1        10ms    20
+Pat25           GatePat     10Mbps      1        10ms    20
+Pat26           GatePat     10Mbps      1        10ms    20
+Pat27           GatePat     10Mbps      1        10ms    20
+Pat28           GatePat     10Mbps      1        10ms    20
+Pat29           GatePat     10Mbps      1        10ms    20
+Pat30           GatePat     10Mbps      1        10ms    20
+GatePat         GateDoc     10Mbps      1        10ms    20
+GateDoc         Doc1        10Mbps      1        10ms    20
+GateDoc         Doc2        10Mbps      1        10ms    20
+GateDoc         Doc3        10Mbps      1        10ms    20
+
+
+
